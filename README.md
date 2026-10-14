@@ -1,4 +1,19 @@
-repo of RGBuild / Loaderpatch patches translated to freeBOOT format
+repo of patches
+
+## SMC Patches
+
+- Argon Data
+- AUD_CLAMP
+- CR4
+- SMC+
+
+## RGLoader Patches
+
+Use the patches from [mitchellwaite's repo]()
+
+These are not updated or maintained
+
+Contains all official RGLoader patches accross all versions
 
 
 ## Credits
@@ -8,5 +23,3 @@ repo of RGBuild / Loaderpatch patches translated to freeBOOT format
 - Visual Studio - Updated Macros
 
 - Visual Studio / 552eden - 17489 Fixes
-
-- Kitty - 17559 Spoof Patch

@@ -1,0 +1,12 @@
+variant	base	patchset	flags	verify
+SMCx	XENON_CLEAN	patches_smc_xenon.S	JTAG	dump
+FALCON_CR4	FALCON_CLEAN	patches_smc_falcon.S	CR4	dump
+FALCON_SMCPLUS	FALCON_CLEAN	patches_smc_falcon.S	CR4,SMC_PLUS	delta:FALCON_CR4:1276=8a,1284=8a
+JASPER_CR4	JASPER_CLEAN	patches_smc_jasper.S	CR4	dump
+JASPER_SMCPLUS	JASPER_CLEAN	patches_smc_jasper.S	CR4,SMC_PLUS	delta:JASPER_CR4:127b=50,1292=50
+SMCaud	JASPER_CLEAN	patches_smc_jasper.S	JTAG,AUD_CLAMP	dump
+SMCfzj	JASPER_CLEAN	patches_smc_jasper.S	JTAG	dump
+TRINITY_CR4	TRINITY_CLEAN	patches_smc_trinity.S	CR4	dump
+TRINITY_SMCPLUS	TRINITY_CLEAN	patches_smc_trinity.S	CR4,SMC_PLUS	delta:TRINITY_CR4:1380=41,1396=41
+CORONA_CR4	CORONA_CLEAN	patches_smc_corona.S	CR4	dump
+CORONA_SMCPLUS	CORONA_CLEAN	patches_smc_corona.S	CR4,SMC_PLUS	delta:CORONA_CR4:1381=41,1397=41
